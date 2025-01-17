@@ -18,4 +18,6 @@ article {
 aside {
     flex: 1;
 }
-
+header, footer {
+    flex-shrink: 0; /* Prevent shrinking used ai to find this hh*/
+}
